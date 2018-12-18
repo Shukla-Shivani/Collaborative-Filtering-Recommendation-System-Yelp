@@ -6,7 +6,7 @@ import org.apache.spark.mllib.recommendation.{ALS, Rating}
 import scala.collection.immutable.ListMap
 import scala.collection.mutable.HashMap
 
-object Shivani_Shukla_ModelBasedCF {
+object ModelBasedCF {
   val output_file = "Shivani_Shukla_ModelBasedCF.txt"
 
   def compute_range(value: Double): Int = {
